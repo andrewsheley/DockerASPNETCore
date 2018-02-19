@@ -1,2 +1,2 @@
 # DockerASPNETCore
-Sample Application do use with Docker
+Sample Application to use with Docker
