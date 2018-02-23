@@ -53,7 +53,7 @@ namespace DockerASPNETCore.Controllers
         public IActionResult Contact()
         {
 
-            throw new Exception("Oh No!!!!! We got a problem!!!!!!");
+            //throw new Exception("Oh No!!!!! We got a problem!!!!!!");
 
             ViewData["Message"] = "Your contact page.";
 
