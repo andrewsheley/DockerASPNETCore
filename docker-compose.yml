@@ -5,4 +5,4 @@ services:
     image: dockeraspnetcore
     build:
       context: .
-      dockerfile: DockerASPNETCore\Dockerfile
+      dockerfile: DockerASPNETCore/Dockerfile

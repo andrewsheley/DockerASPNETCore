@@ -1,9 +1,11 @@
-﻿@{
+﻿
+
+@{
     ViewData["Title"] = "About";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
-@*<h4>Your In environment: @ViewData["Environment"]</h4>
-<h4>Your Server is: @System.Environment.MachineName</h4>*@
-
+<h4>Your In environment: @ViewData["Environment"]</h4>
+<h4>Your Server is: @System.Environment.MachineName</h4>
+<h4>Connection String: @ViewData["ConnectionString"]</h4>
 <p>Use this area to provide additional information.</p>
