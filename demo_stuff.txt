@@ -1,0 +1,49 @@
+
+https://app.scrumgenius.com/dashboard/GDFFTO/report/RLQRF6/date/25-01-2020/dashboard/
+
+https://sonarcloud.io/dashboard?id=andrewsheley_Demo
+
+
+
+
+
+# ...
+# do this after other tasks such as building
+- task: DotNetCoreCLI@2
+  inputs:
+    command: test
+    projects: '**/*Tests/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
+
+
+
+
+
+
+
+
+
+
+https://docs.docker.com/ee/docker-ee/windows/docker-ee/
+
+
+
+Start-Process powershell -Verb runAs
+
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+
+docker pull microsoft/mssql-server-windows-developer
+https://hub.docker.com/r/microsoft/mssql-server-windows-developer/
+
+docker run -d -p 1401:1433 -e "sa_password=Password01! -e ACCEPT_EULA=Y --restart microsoft/mssql-server-windows-developer
+
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Password01!" -p 1401:1433 --name sql1  -d microsoft/mssql-server-windows-developer
+--restart
+
+
+docker pull mcr.microsoft.com/mssql/server
+docker pull mcr.microsoft.com/mssql/server:2019-latest
+
+
+
+logoff
